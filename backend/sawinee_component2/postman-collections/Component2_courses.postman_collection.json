@@ -1,0 +1,330 @@
+{
+	"info": {
+		"_postman_id": "1c0c207b-a7ba-4e86-991d-40832cff803b",
+		"name": "Component2_courses",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39557490"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/courses/id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/courses/67cfee8c52cfb753203bc586",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"courses",
+						"67cfee8c52cfb753203bc586"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/courses",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						},
+						{
+							"key": "courseid",
+							"value": "400",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "ML LEARNING",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/armae/Documents/Firefly An iPadMini , centered against a smooth light white background. The e-reader screen displays.jpg"
+						},
+						{
+							"key": "description",
+							"value": "An introductory course on ML",
+							"type": "text"
+						},
+						{
+							"key": "detail",
+							"value": "Test Detailed course description\n",
+							"type": "text"
+						},
+						{
+							"key": "instructor",
+							"value": "ML Lee",
+							"type": "text"
+						},
+						{
+							"key": "duration",
+							"value": "90",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "AI",
+							"type": "text"
+						},
+						{
+							"key": "hours",
+							"value": "90",
+							"type": "text"
+						},
+						{
+							"key": "modules[]",
+							"value": "ML Basics",
+							"type": "text"
+						},
+						{
+							"key": "modules[]",
+							"value": "ML Fundamentals",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/courses/id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						},
+						{
+							"key": "courseid",
+							"value": "300",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "Update Web Development 1013\n",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "An introductory course on web development2",
+							"type": "text"
+						},
+						{
+							"key": "instructor",
+							"value": "John Lee",
+							"type": "text"
+						},
+						{
+							"key": "duration",
+							"value": "122",
+							"type": "text"
+						},
+						{
+							"key": "hours",
+							"value": "1202",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "Programming2",
+							"type": "text"
+						},
+						{
+							"key": "detail",
+							"value": "Test Detailed course description\n",
+							"type": "text"
+						},
+						{
+							"key": "modules[]",
+							"value": "HTML Basics3",
+							"type": "text"
+						},
+						{
+							"key": "modules[]",
+							"value": "CSS Fundamentals",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/armae/Downloads/logo.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/courses/67cfefb652cfb753203bc58b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"courses",
+						"67cfefb652cfb753203bc58b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/courses/id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/courses/67c55235782c2575b2a7155c",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"courses",
+						"67c55235782c2575b2a7155c"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/courses/id put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						},
+						{
+							"key": "courseid",
+							"value": "500",
+							"type": "text"
+						},
+						{
+							"key": "title",
+							"value": "Data Security and Information Privacy Foundations",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/Users/armae/Downloads/Cred_Data Security and Information Privacy_1200x800.jpg"
+						},
+						{
+							"key": "description",
+							"value": "This Microcredential provides fundamentals of Data Security and Information Privacy.",
+							"type": "text"
+						},
+						{
+							"key": "detail",
+							"value": " At the completion of this unit, the learners will be able to:\n\nUnderstand the privacy/security threats, risks, and vulnerabilities\nEvaluate the risk of private/confidential data leakage\nApply de-identification and other prevention methods to mitigate the risks\nUnderstand the Australian and International landscapes and frameworks.\nAfter completing this Microcredential, learners will be in a good position to excel in their Information Security and Privacy careers and get career opportunities related to Information Systems Security, Data Privacy, and Privacy and Security Testing. They can also get further qualifications in advanced Data and Information Privacy, and/or build their business’s information systems network to be robust against Information Privacy attacks.",
+							"type": "text"
+						},
+						{
+							"key": "instructor",
+							"value": "SC DR Update",
+							"type": "text"
+						},
+						{
+							"key": "duration",
+							"value": "90",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "Security",
+							"type": "text"
+						},
+						{
+							"key": "modules[]",
+							"value": "Understand the privacy/security threats",
+							"type": "text"
+						},
+						{
+							"key": "modules[]",
+							"value": "Evaluate the risk of private/confidential data leakage",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/courses/67d650a3a864c9f5a203b810",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"courses",
+						"67d650a3a864c9f5a203b810"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

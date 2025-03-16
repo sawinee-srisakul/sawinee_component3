@@ -1,0 +1,12 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+
+# MacOS system files
+.DS_Store
+
+# Postman collections folder (if you don't want to track it)
+# postman-collections/
