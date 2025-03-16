@@ -7,12 +7,12 @@ This repository contains a full-stack course management application. It includes
 **_Key features include:_**
 
 - Course Listing Page: Displays a list of all available courses, allowing users to view course details.
-- Course Detail Page: Shows detailed information about a specific course, including prerequisites, duration, and instructor details.
+- Course Detail Page: Shows detailed information about a specific course, including modules, duration, and instructor details.
 
 - In addition to the front-end, this repository also contains the back-end server, which provides the necessary API for fetching and managing course data.
 
 - Backend (Node.js): The server provides RESTful endpoints to handle data operations such as fetching courses, and course details
-  By running both the back-end and front-end applications locally, users can access a fully functional course management system.
+- By running both the back-end and front-end applications locally, users can access a fully functional course management system.
 
 ## Setup Instructions
 
