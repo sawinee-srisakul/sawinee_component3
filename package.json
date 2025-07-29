@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node backend/sawinee_component2/server.js",
+    "heroku-postbuild": "npm install --prefix backend/sawinee_component2 && npm install && npm run build"
   },
   "dependencies": {
     "axios": "^1.8.2",
